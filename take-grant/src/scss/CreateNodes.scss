@@ -1,0 +1,41 @@
+.actions {
+  Button {
+    min-width: 200px;
+  }
+}
+
+.App {
+  text-align: center;
+}
+
+.App-header {
+  img {
+    height: 20vmin;
+  }
+}
+
+.actions {
+  .inputs {
+    max-width: 200px;
+    background: transparent;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    margin: auto;
+    padding: 8px 16px;
+    font-size: 20px;
+    border-radius: 8px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 50px;
+  }
+}
+.exeptionBlock {
+  .correct{
+    color: green;
+  }
+  .exeption {
+    color: red;
+  }
+}
